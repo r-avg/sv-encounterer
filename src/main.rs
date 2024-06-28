@@ -27,28 +27,32 @@
 // 19. underground
 
 use std::io;
+use std::io::BufReader;
+use std::fs::File;
+use serde_json::*;
 
 fn main() {
     let mut selected_area: String = "".to_string(); // defaults to none
-    // let mut encounters: Vec<Vec<String>>; // a vector of vectors of strings
+    let mut encounters: Vec<Vec<String>>; // a vector of vectors of strings
     // let mut biome: u8 = 0; // will default to biome 0, which is bamboo forest
     // let mut chosen_encounter: String = "";
 
     // firstly: select the file
     selected_area = select_area();
     // then read the selected file and parse the stuff into an array
-    // encounters = read_file(selected_area);
+    encounters = read_file(selected_area);
     // and then select the encounter from the given array
     // chosen_encounter = choose_encounter(encounters);
     // and shit out the encounter to the console! easy enough (?)
     // println!("Your encounter for {selected_area} is {chosen_encounter}");
 
+    println!("{}", std::env::current_dir().unwrap().display());
 }
 
 fn select_area() -> String {
     let mut province: String = "".to_string();
     let mut area: String = "".to_string();
-    let mut filename: String = "".to_string();
+    let mut filename: String = "./data/".to_string();
     let mut areas_amount: u8 = 0;
     let mut is_input_correct = true;
 
@@ -204,13 +208,20 @@ fn select_area() -> String {
     }
 
     filename.push_str(".json");
-    println!("{filename}"); // just makin sure things are being done correctly
+    println!("{filename}");
 
     filename // is returned
 }
 
-fn read_file(biome: u8) -> Vec<Vec<String>> { // which should return an array of arrays
-    todo!();
+fn read_file(filename: String) -> Vec<Vec<String>> { // which should return an array of arrays
+    let mut encounters: Vec<Vec<String>> = vec![];
+    let file = File::open(filename).expect("File not found");
+    let reader = BufReader::new(file);
+    let test: String = serde_json::from_reader(reader).expect("Error reading file");
+
+    println!("{test}");
+
+    encounters
 }
 
 fn choose_encounter(encounters: Vec<Vec<String>>) -> String { // which should return a string
