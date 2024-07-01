@@ -33,14 +33,14 @@ use serde::{ Serialize, Deserialize };
 
 fn main() {
     let mut selected_area: String = "".to_string(); // defaults to none
-    let mut encounters: Vec<Vec<String>>; // a vector of vectors of strings
+    // let mut encounters: Encounters; // a collection of the biomes    
     // let mut biome: u8 = 0; // will default to biome 0, which is bamboo forest
     // let mut chosen_encounter: String = "";
 
     // firstly: select the file
     selected_area = select_area();
     // then read the selected file and select a biome from which to get the encounter
-    encounters = read_file(selected_area);
+    let mut encounters = read_file(selected_area);
     // and then select the encounter from the given array
     // chosen_encounter = choose_encounter(encounters);
     // and shit out the encounter to the console! easy enough (?)
@@ -177,7 +177,7 @@ fn select_area() -> String {
                 println!("You have to input a valid number!");
                 is_input_correct = false;
             } else if area.parse::<u8>().expect("Not a valid input") > areas_amount {
-                println!("Province has {areas_amount} areas; please input a number within them");
+                println!("Province has {areas_amount} areas; please input a number within");
                 is_input_correct = false;
             } else if area.parse::<u8>().expect("Not a valid input") < areas_amount {
                 let area_u8: u8 = area.parse::<u8>().expect("Not a valid input");
@@ -191,7 +191,7 @@ fn select_area() -> String {
                             filename.push_str("s");
                         }
                     },
-                    i if (1 ..= areas_amount).contains(&area_u8) => filename.push_str(&area),
+                    i if (1 ..= areas_amount).contains(&area_u8) => filename.push_str(&area), // TODO: please explain
                     _ => unreachable!(),
                 }
             } else {
@@ -212,34 +212,75 @@ fn select_area() -> String {
     filename // is returned
 }
 
-fn read_file(filename: String) -> Vec<Vec<String>> { // which should return an array of arrays
-    let mut encounters: Vec<Vec<String>> = vec![];
+fn read_file(filename: String) -> Encounters { // which should return an array of arrays
+    let mut _encounters: Vec<Vec<String>> = vec![]; // TODO: this does fuck all
     let file = File::open(filename).expect("File not found");
     let reader = BufReader::new(file);
-    let test: Encounters = serde_json::from_reader(reader).expect("Error reading file");
+    let encounters: Encounters = serde_json::from_reader(reader).expect("Error reading file");
 
-    // TODO: this to be replaced with an actual way to browse the encounters
-    //       also please please please remove the quotes around the pokemon names
-    //       those look fugly!!!!!!!! ty
-    for i in test.habitats.prairie {
-        println!("{:#?}", i);
+    // TODO: make compact or whatever; get rid of quotation marks
+    // there's probably some fancy way of doing this!!!
+    // i'm however bad at rust and programming in general and i'm also very tired
+    // so i'm hardcoding the FUCK out of this
+    println!(""); // formatting
+    println!("The encounters for your selected area are:");
+    println!("  BEACH");
+    for i in &encounters.biomes.beach { // apparently for loops are ownership changes? ok then
+        print!("{:#?} | ", i);
+    }
+    println!(""); // formatting
+    println!("  FLOWER");
+    for i in &encounters.biomes.flower {
+        print!("{:#?} | ", i);
+    }
+    println!(""); // formatting
+    println!("  FOREST");
+    for i in &encounters.biomes.forest {
+        print!("{:#?} | ", i);
+    }
+    println!(""); // formatting
+    println!("  LAKE");
+    for i in &encounters.biomes.lake {
+        print!("{:#?} | ", i);
+    }
+    println!(""); // formatting
+    println!("  OCEAN");
+    for i in &encounters.biomes.ocean {
+        print!("{:#?} | ", i);
+    }
+    println!(""); // formatting
+    println!("  RIVERSIDE");
+    for i in &encounters.biomes.riverside {
+        print!("{:#?} | ", i);
+    }
+    println!(""); // formatting
+    println!("  RUINS");
+    for i in &encounters.biomes.ruins {
+        print!("{:#?} | ", i);
+    }
+    println!(""); // formatting
+    println!("  TOWN");
+    for i in &encounters.biomes.town {
+        print!("{:#?} | ", i);
     }
 
     encounters
 }
 
-fn choose_encounter(encounters: Vec<Vec<String>>) -> String { // which should return a string
+fn choose_encounter(encounters: Encounters) -> String { // which should return a string
     todo!();
 }
 
+// structs
+
 #[derive(Serialize, Deserialize)]
 pub struct Encounters {
-    habitats: Habitats,
+    biomes: Biomes,
 }
 
 #[derive(Serialize, Deserialize)]
 #[serde(rename_all = "PascalCase")] // huh?
-pub struct Habitats {
+pub struct Biomes {
     // bamboo
     beach: Vec<String>,
     // cave
