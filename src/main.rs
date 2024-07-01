@@ -29,7 +29,7 @@
 use std::io;
 use std::io::BufReader;
 use std::fs::File;
-use serde_json::*;
+use serde::{ Serialize, Deserialize };
 
 fn main() {
     let mut selected_area: String = "".to_string(); // defaults to none
@@ -39,14 +39,14 @@ fn main() {
 
     // firstly: select the file
     selected_area = select_area();
-    // then read the selected file and parse the stuff into an array
+    // then read the selected file and select a biome from which to get the encounter
     encounters = read_file(selected_area);
     // and then select the encounter from the given array
     // chosen_encounter = choose_encounter(encounters);
     // and shit out the encounter to the console! easy enough (?)
     // println!("Your encounter for {selected_area} is {chosen_encounter}");
 
-    println!("{}", std::env::current_dir().unwrap().display());
+    // println!("{}", std::env::current_dir().unwrap().display());
 }
 
 fn select_area() -> String {
@@ -208,7 +208,6 @@ fn select_area() -> String {
     }
 
     filename.push_str(".json");
-    println!("{filename}");
 
     filename // is returned
 }
@@ -217,13 +216,47 @@ fn read_file(filename: String) -> Vec<Vec<String>> { // which should return an a
     let mut encounters: Vec<Vec<String>> = vec![];
     let file = File::open(filename).expect("File not found");
     let reader = BufReader::new(file);
-    let test: String = serde_json::from_reader(reader).expect("Error reading file");
+    let test: Encounters = serde_json::from_reader(reader).expect("Error reading file");
 
-    println!("{test}");
+    // TODO: this to be replaced with an actual way to browse the encounters
+    //       also please please please remove the quotes around the pokemon names
+    //       those look fugly!!!!!!!! ty
+    for i in test.habitats.prairie {
+        println!("{:#?}", i);
+    }
 
     encounters
 }
 
 fn choose_encounter(encounters: Vec<Vec<String>>) -> String { // which should return a string
     todo!();
+}
+
+#[derive(Serialize, Deserialize)]
+pub struct Encounters {
+    habitats: Habitats,
+}
+
+#[derive(Serialize, Deserialize)]
+#[serde(rename_all = "PascalCase")] // huh?
+pub struct Habitats {
+    // bamboo
+    beach: Vec<String>,
+    // cave
+    // desert
+    flower: Vec<String>,
+    forest: Vec<String>,
+    lake: Vec<String>,
+    // mine
+    // craft!!! naw i'm joking it's mountain
+    ocean: Vec<String>,
+    // olive
+    prairie: Vec<String>,
+    riverside: Vec<String>,
+    // rocky
+    ruins: Vec<String>,
+    // snowfield
+    // swamp
+    town: Vec<String>,
+    // underground
 }
