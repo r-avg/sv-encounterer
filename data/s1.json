@@ -1,13 +1,18 @@
 {
-  "biomes": {
-    "Prairie": [
-      "Hoppip",
+  "habitats": {
+    "Bamboo Forest": [],
+    "Beach": [
+      "Wingull",
+      "Buizel"
+    ],
+    "Cave": [],
+    "Desert": [],
+    "Flower": [
+      "Sunkern",
+      "Combee",
       "Happiny",
-      "Fletchling",
-      "Scatterbug",
-      "Lechonk",
-      "Tarountula",
-      "Pawmi"
+      "Spewpa",
+      "Oricorio"
     ],
     "Forest": [
       "Pichu",
@@ -18,11 +23,6 @@
       "Tarountula",
       "Shroodle"
     ],
-    "Town": [
-      "Igglybuff",
-      "Ralts",
-      "Fidough"
-    ],
     "Lake": [
       "Psyduck",
       "Magikarp",
@@ -30,6 +30,24 @@
       "Surskit",
       "Azurill",
       "Chewtle"
+    ],
+    "Mine": [],
+    "Mountain": [],
+    "Ocean": [
+      "Magikarp",
+      "Wingull",
+      "Buizel",
+      "Arrokuda"
+    ],
+    "Olive": [],
+    "Prairie": [
+      "Hoppip",
+      "Happiny",
+      "Fletchling",
+      "Scatterbug",
+      "Lechonk",
+      "Tarountula",
+      "Pawmi"
     ],
     "Riverside": [
       "Psyduck",
@@ -39,26 +57,18 @@
       "Buizel",
       "Arrokuda"
     ],
-    "Ocean": [
-      "Magikarp",
-      "Wingull",
-      "Buizel",
-      "Arrokuda"
-    ],
-    "Beach": [
-      "Wingull",
-      "Buizel"
-    ],
-    "Flower": [
-      "Sunkern",
-      "Combee",
-      "Happiny",
-      "Spewpa",
-      "Oricorio"
-    ],
+    "Rocky": [],
     "Ruins": [
       "Gastly",
       "Drowzee"
-    ]
+    ],
+    "Snowfield": [],
+    "Swamp": [],
+    "Town": [
+      "Igglybuff",
+      "Ralts",
+      "Fidough"
+    ],
+    "Underground": []
   }
 }
