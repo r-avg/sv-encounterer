@@ -1,6 +1,6 @@
 {
-  "habitats": {
-    "Bamboo": [],
+  "biomes": {
+    "Bamboo Forest": [],
     "Beach": [
       "Wingull",
       "Buizel"

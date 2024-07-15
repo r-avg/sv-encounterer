@@ -6,4 +6,4 @@ edition = "2021"
 [dependencies]
 serde_json = "1.0.118"
 serde = { version = "1.0.0", features = ["derive"] }
-
+struct_iterable = "0.1.1"
