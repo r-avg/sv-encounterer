@@ -30,6 +30,7 @@ use std::io;
 use std::io::BufReader;
 use std::fs::File;
 use std::collections::HashMap;
+use rand::Rng;
 use serde::{ Serialize, Deserialize };
 
 fn main() {
@@ -45,7 +46,7 @@ fn main() {
     // and then select the encounter from the given array
     let mut chosen_encounter = choose_encounter(encounters);
     // and shit out the encounter to the console! easy enough (?)
-    // println!("Your encounter for {selected_area} is {chosen_encounter}");
+    println!("Your encounter is {chosen_encounter}");
 
     // println!("{}", std::env::current_dir().unwrap().display());
 }
@@ -232,7 +233,19 @@ fn read_file(filename: String) -> Encounters {
 }
 
 fn choose_encounter(encounters: Encounters) -> String { // which should return a string
-    todo!();
+    let mut chosen_biome: String = "".to_string();
+
+    println!("Please enter the biome you want your encounter for!");
+    io::stdin()
+        .read_line(&mut chosen_biome)
+        .expect("Failed to read line");
+
+    chosen_biome = chosen_biome.trim().to_string();
+
+    let encounter_list = encounters.biomes.get(&chosen_biome).expect("Not found!");
+    let chosen_encounter = &encounter_list[rand::thread_rng().gen_range(0..encounter_list.len())];
+
+    chosen_encounter.to_string()
 }
 
 // structs
