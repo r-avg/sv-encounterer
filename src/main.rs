@@ -29,6 +29,7 @@
 use std::io;
 use std::io::BufReader;
 use std::fs::File;
+use std::collections::HashMap;
 use serde::{ Serialize, Deserialize };
 
 fn main() {
@@ -213,56 +214,11 @@ fn select_area() -> String {
 }
 
 fn read_file(filename: String) -> Encounters { // which should return an array of arrays
-    let mut _encounters: Vec<Vec<String>> = vec![]; // TODO: this does fuck all
     let file = File::open(filename).expect("File not found");
     let reader = BufReader::new(file);
     let encounters: Encounters = serde_json::from_reader(reader).expect("Error reading file");
 
-    // TODO: make compact or whatever; get rid of quotation marks
-    // there's probably some fancy way of doing this!!!
-    // i'm however bad at rust and programming in general and i'm also very tired
-    // so i'm hardcoding the FUCK out of this
-    println!(""); // formatting
-    println!("The encounters for your selected area are:");
-    println!("  BEACH");
-    for i in &encounters.biomes.beach { // apparently for loops are ownership changes? ok then
-        print!("{:#?} | ", i);
-    }
-    println!(""); // formatting
-    println!("  FLOWER");
-    for i in &encounters.biomes.flower {
-        print!("{:#?} | ", i);
-    }
-    println!(""); // formatting
-    println!("  FOREST");
-    for i in &encounters.biomes.forest {
-        print!("{:#?} | ", i);
-    }
-    println!(""); // formatting
-    println!("  LAKE");
-    for i in &encounters.biomes.lake {
-        print!("{:#?} | ", i);
-    }
-    println!(""); // formatting
-    println!("  OCEAN");
-    for i in &encounters.biomes.ocean {
-        print!("{:#?} | ", i);
-    }
-    println!(""); // formatting
-    println!("  RIVERSIDE");
-    for i in &encounters.biomes.riverside {
-        print!("{:#?} | ", i);
-    }
-    println!(""); // formatting
-    println!("  RUINS");
-    for i in &encounters.biomes.ruins {
-        print!("{:#?} | ", i);
-    }
-    println!(""); // formatting
-    println!("  TOWN");
-    for i in &encounters.biomes.town {
-        print!("{:#?} | ", i);
-    }
+    println!("{:#?}", encounters);
 
     encounters
 }
@@ -273,31 +229,7 @@ fn choose_encounter(encounters: Encounters) -> String { // which should return a
 
 // structs
 
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize, Debug)]
 pub struct Encounters {
-    biomes: Biomes,
-}
-
-#[derive(Serialize, Deserialize)]
-#[serde(rename_all = "PascalCase")] // huh?
-pub struct Biomes {
-    // bamboo
-    beach: Vec<String>,
-    // cave
-    // desert
-    flower: Vec<String>,
-    forest: Vec<String>,
-    lake: Vec<String>,
-    // mine
-    // craft!!! naw i'm joking it's mountain
-    ocean: Vec<String>,
-    // olive
-    prairie: Vec<String>,
-    riverside: Vec<String>,
-    // rocky
-    ruins: Vec<String>,
-    // snowfield
-    // swamp
-    town: Vec<String>,
-    // underground
+    biomes: HashMap<String, Vec<String>>,
 }
