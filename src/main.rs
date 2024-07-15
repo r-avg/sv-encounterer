@@ -43,7 +43,7 @@ fn main() {
     // then read the selected file and select a biome from which to get the encounter
     let mut encounters = read_file(selected_area);
     // and then select the encounter from the given array
-    // chosen_encounter = choose_encounter(encounters);
+    let mut chosen_encounter = choose_encounter(encounters);
     // and shit out the encounter to the console! easy enough (?)
     // println!("Your encounter for {selected_area} is {chosen_encounter}");
 
@@ -213,12 +213,20 @@ fn select_area() -> String {
     filename // is returned
 }
 
-fn read_file(filename: String) -> Encounters { // which should return an array of arrays
+fn read_file(filename: String) -> Encounters { 
     let file = File::open(filename).expect("File not found");
     let reader = BufReader::new(file);
     let encounters: Encounters = serde_json::from_reader(reader).expect("Error reading file");
 
-    println!("{:#?}", encounters);
+    // we're also displaying the encounters here
+    for (key, value) in &encounters.biomes {
+        if !value.is_empty() {
+            println!("  -- {}", key);
+            for i in value {
+                println!("{}", i);
+            }
+        }
+    }
 
     encounters
 }
