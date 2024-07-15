@@ -2,29 +2,6 @@
 // the idea is that you select the area, the program reads (then outputs)
 // some sort of file with the possible encounters, then you pick the biome
 // and the program shits out the encounter !! easy enough
-//
-// the file in question should be ordered according to the
-// following table:
-//
-// 1.  bamboo forest
-// 2.  beach
-// 3.  cave
-// 4.  desert
-// 5.  flower
-// 6.  forest
-// 7.  lake
-// 8.  mine
-// 9.  mountain
-// 10. ocean
-// 11. olive
-// 12. prairie
-// 13. riverside
-// 14. rocky
-// 15. ruins
-// 16. snowfield
-// 17. swamp
-// 18. town
-// 19. underground
 
 use std::io;
 use std::io::BufReader;
@@ -34,17 +11,12 @@ use rand::Rng;
 use serde::{ Serialize, Deserialize };
 
 fn main() {
-    let mut selected_area: String = "".to_string(); // defaults to none
-    // let mut encounters: Encounters; // a collection of the biomes    
-    // let mut biome: u8 = 0; // will default to biome 0, which is bamboo forest
-    // let mut chosen_encounter: String = "";
-
     // firstly: select the file
-    selected_area = select_area();
+    let selected_area = select_area();
     // then read the selected file and select a biome from which to get the encounter
-    let mut encounters = read_file(selected_area);
+    let encounters = read_file(selected_area);
     // and then select the encounter from the given array
-    let mut chosen_encounter = choose_encounter(encounters);
+    let chosen_encounter = choose_encounter(encounters);
     // and shit out the encounter to the console! easy enough (?)
     println!("Your encounter is {chosen_encounter}");
 
@@ -56,7 +28,7 @@ fn select_area() -> String {
     let mut area: String = "".to_string();
     let mut filename: String = "./data/".to_string();
     let mut areas_amount: u8 = 0;
-    let mut is_input_correct = true;
+    let mut is_input_correct;
 
     loop {
         is_input_correct = true;
@@ -164,7 +136,7 @@ fn select_area() -> String {
                 }
             }
 
-            area = "".to_string();
+            area.clear(); // resets because of loop situations
         } else {
             println!("Please select the area you want your encounter for!");
             println!("Inputting '0' will give you the corresponding sea encounter (and not Area Zero, fitting as it would be)");
@@ -193,7 +165,7 @@ fn select_area() -> String {
                             filename.push_str("s");
                         }
                     },
-                    i if (1 ..= areas_amount).contains(&area_u8) => filename.push_str(&area), // TODO: please explain
+                    _i if (1 ..= areas_amount).contains(&area_u8) => filename.push_str(&area), // TODO: please explain
                     _ => unreachable!(),
                 }
             } else {
