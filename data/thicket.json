@@ -1,0 +1,106 @@
+{
+  "biomes": {
+    "Bamboo Forest": [],
+    "Beach": [],
+    "Cave": [],
+    "Desert": [],
+    "Flower": [
+      "Chansey",
+      "Sunflora",
+      "Vespiquen",
+      "Combee",
+      "Vivillon",
+      "Floette",
+      "Fomantis",
+      "Dolliv",
+      "Smoliv"
+    ],
+    "Forest": [
+      "Venonat",
+      "Venomoth",
+      "Murkrow",
+      "Pineco",
+      "Dunsparce",
+      "Zorua",
+      "Foongus",
+      "Oranguru",
+      "Passimian",
+      "Komala",
+      "Mimikyu",
+      "Greedent",
+      "Skwovet",
+      "Applin",
+      "Impidimp",
+      "Morgrem",
+      "Oinkologne",
+      "Spidops",
+      "Tarountula",
+      "Charcadet",
+      "Shroodle",
+      "Grafaiai",
+      "Toedscool"
+    ],
+    "Lake": [
+      "Psyduck",
+      "Magikarp",
+      "Misdreavus",
+      "Barboach",
+      "Whiscash",
+      "Basculin",
+      "Drednaw",
+      "Chewtle",
+      "Dreepy",
+      "Clodsire",
+      "Wooper"
+    ],
+    "Mine": [],
+    "Mountain": [],
+    "Ocean": [
+      "Magikarp",
+      "Wingull",
+      "Buizel",
+      "Arrokuda"
+    ],
+    "Olive": [],
+    "Prairie": [
+      "Hoppip",
+      "Happiny",
+      "Fletchling",
+      "Scatterbug",
+      "Lechonk",
+      "Tarountula",
+      "Pawmi"
+    ],
+    "Riverside": [
+      "Psyduck",
+      "Magikarp",
+      "Buizel",
+      "Floatzel",
+      "Basculin",
+      "Pawniard",
+      "Chewtle",
+      "Drednaw",
+      "Dreepy",
+      "Tadbulb",
+      "Flamigo"
+    ],
+    "Rocky": [
+      "Makuhita",
+      "Hariyama",
+      "Pawniard",
+      "Skiddo",
+      "Gogoat",
+      "Gumshoos",
+      "Yungoos",
+      "Lokix",
+      "Nacli",
+      "Naclstack"
+    ],
+    "Ruins": [],
+    "Snowfield": [],
+    "Swamp": [],
+    "Town": [],
+    "Underground": []
+  }
+}
+

@@ -1,0 +1,39 @@
+{
+  "habitats": {
+    "Bamboo Forest": [],
+    "Beach": [
+      "Wingull",
+      "Buizel"
+    ],
+    "Cave": [],
+    "Desert": [],
+    "Flower": [],
+    "Forest": [],
+    "Lake": [],
+    "Mine": [],
+    "Mountain": [],
+    "Ocean": [
+      "Magikarp",
+      "Wingull",
+      "Buizel",
+      "Arrokuda"
+    ],
+    "Olive": [],
+    "Prairie": [
+      "Hoppip",
+      "Fletchling",
+      "Scatterbug",
+      "Lechonk",
+      "Tarountula",
+      "Pawmi"
+    ],
+    "Riverside": [],
+    "Rocky": [],
+    "Ruins": [],
+    "Snowfield": [],
+    "Swamp": [],
+    "Town": [],
+    "Underground": []
+  }
+}
+

@@ -1,0 +1,46 @@
+{
+  "habitats": {
+    "Bamboo Forest": [],
+    "Beach": [],
+    "Cave": [
+      "Dugtrio",
+      "Umbreon",
+      "Dunsparce",
+      "Larvitar",
+      "Pupitar",
+      "Hariyama",
+      "Makuhita",
+      "Sableye",
+      "Meditite",
+      "Medicham",
+      "Bagon",
+      "Shelgon",
+      "Gabite",
+      "Gible",
+      "Deino",
+      "Gumshoos",
+      "Yungoos",
+      "Salandit",
+      "Salazzle",
+      "Toxtricity",
+      "Glimmet"
+    ],
+    "Desert": [],
+    "Flower": [],
+    "Forest": [],
+    "Lake": [],
+    "Mine": [],
+    "Mountain": [],
+    "Ocean": [],
+    "Olive": [],
+    "Prairie": [],
+    "Riverside": [],
+    "Rocky": [],
+    "Ruins": [],
+    "Snowfield": [],
+    "Swamp": [],
+    "Town": [],
+    "Underground": []
+  }
+}
+

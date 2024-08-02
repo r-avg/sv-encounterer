@@ -1,0 +1,71 @@
+{
+  "biomes": {
+    "Bamboo Forest": [],
+    "Beach": [],
+    "Cave": [],
+    "Desert": [
+      "Phanpy",
+      "Donphan",
+      "Cacnea",
+      "Hippopotas",
+      "Sandile",
+      "Rufflet",
+      "Larvesta",
+      "Silicobra",
+      "Stonjourner",
+      "Bramblin",
+      "Capsakid",
+      "Rellor",
+      "Flittle",
+      "Orthworm"
+    ],
+    "Flower": [
+      "Combee",
+      "Flabébé",
+      "Floette"
+    ],
+    "Forest": [],
+    "Lake": [],
+    "Mine": [],
+    "Mountain": [],
+    "Ocean": [],
+    "Olive": [],
+    "Prairie": [
+      "Murkrow",
+      "Dunsparce",
+      "Pawmo",
+      "Pawmi",
+      "Toedscool"
+    ],
+    "Riverside": [
+      "Psyduck",
+      "Marill",
+      "Buizel",
+      "Chewtle",
+      "Drednaw",
+      "Dreepy",
+      "Tadbulb"
+    ],
+    "Rocky": [
+      "Makuhita",
+      "Skiddo",
+      "Yungoos",
+      "Gumshoos",
+      "Lokix",
+      "Nacli",
+      "Charcadet"
+    ],
+    "Ruins": [
+      "Gastly",
+      "Bronzor",
+      "Falinks",
+      "Stonjourner",
+      "Tinkatuff"
+    ],
+    "Snowfield": [],
+    "Swamp": [],
+    "Town": [],
+    "Underground": []
+  }
+}
+

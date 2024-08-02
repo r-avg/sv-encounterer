@@ -1,0 +1,28 @@
+{
+  "habitats": {
+    "Bamboo Forest": [],
+    "Beach": [],
+    "Cave": [
+      "Diglett",
+      "Houndour",
+      "Yungoos"
+    ],
+    "Desert": [],
+    "Flower": [],
+    "Forest": [],
+    "Lake": [],
+    "Mine": [],
+    "Mountain": [],
+    "Ocean": [],
+    "Olive": [],
+    "Prairie": [],
+    "Riverside": [],
+    "Rocky": [],
+    "Ruins": [],
+    "Snowfield": [],
+    "Swamp": [],
+    "Town": [],
+    "Underground": []
+  }
+}
+

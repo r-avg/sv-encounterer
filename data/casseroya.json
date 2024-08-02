@@ -1,0 +1,99 @@
+{
+  "biomes": {
+    "Bamboo Forest": [],
+    "Beach": [
+      "Slowpoke",
+      "Slowbro",
+      "Floatzel",
+      "Buizel",
+      "Gastrodon",
+      "Shellos",
+      "Palossand",
+      "Sandygast",
+      "Pincurchin"
+    ],
+    "Cave": [],
+    "Desert": [],
+    "Flower": [],
+    "Forest": [],
+    "Lake": [
+      "Golduck",
+      "Slowpoke",
+      "Slowbro",
+      "Scyther",
+      "Gyarados",
+      "Vaporeon",
+      "Dratini",
+      "Dragonair",
+      "Azumarill",
+      "Marill",
+      "Swalot",
+      "Gulpin",
+      "Altaria",
+      "Swablu",
+      "Tropius"
+    ],
+    "Mine": [],
+    "Mountain": [],
+    "Ocean": [
+      "Cloyster",
+      "Gyarados",
+      "Floatzel",
+      "Buizel",
+      "Skrelp",
+      "Dragalge",
+      "Clawitzer"
+    ],
+    "Olive": [],
+    "Prairie": [],
+    "Riverside": [
+      "Golduck",
+      "Slowpoke",
+      "Slowbro",
+      "Vaporeon",
+      "Azumarill",
+      "Marill",
+      "Floatzel",
+      "Buizel",
+      "Toxicroak",
+      "Croagunk",
+      "Drakloak",
+      "Dreepy"
+    ],
+    "Rocky": [
+      "Honchkrow",
+      "Murkrow",
+      "Gogoat",
+      "Hawlucha",
+      "Copperajah",
+      "Cufant",
+      "Lokix",
+      "Naclstack",
+      "Nacli"
+    ],
+    "Ruins": [
+      "Bronzong",
+      "Mabosstiff",
+      "Maschiff",
+      "Houndstone",
+      "Greavard"
+    ],
+    "Snowfield": [
+      "Glalie",
+      "Bronzong",
+      "Glaceon",
+      "Froslass",
+      "Beartic",
+      "Cubchoo",
+      "Frosmoth",
+      "Houndstone",
+      "Greavard",
+      "Cetitan",
+      "Cetoddle"
+    ],
+    "Swamp": [],
+    "Town": [],
+    "Underground": []
+  }
+}
+
