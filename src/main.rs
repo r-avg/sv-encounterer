@@ -30,6 +30,8 @@ fn select_area() -> String {
     let mut areas_amount: u8 = 0;
     let mut is_input_correct;
 
+    println!("{}", std::env::current_dir().unwrap().display());
+
     loop {
         is_input_correct = true;
 
