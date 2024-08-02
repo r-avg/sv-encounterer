@@ -1,0 +1,129 @@
+{
+  "habitats": {
+    "Bamboo Forest": [],
+    "Beach": [
+      "Floatzel",
+      "Pincurchin",
+      "Eiscue",
+      "Naclstack",
+      "Kilowattrel",
+      "Wugtrio"
+    ],
+    "Cave": [
+      "Dugtrio",
+      "Umbreon",
+      "Sableye",
+      "Gabite",
+      "Deino",
+      "Glimmet",
+      "Noibat",
+      "Salazzle"
+    ],
+    "Desert": [],
+    "Flower": [
+      "Chansey",
+      "Jumpluff",
+      "Sunflora",
+      "Vespiquen",
+      "Vivillon",
+      "Floette",
+      "Lurantis"
+    ],
+    "Forest": [],
+    "Lake": [
+      "Golduck",
+      "Vaporeon",
+      "Dratini",
+      "Altaria",
+      "Whiscash",
+      "Mismagius",
+      "Drakloak",
+      "Flamigo",
+      "Clodsire"
+    ],
+    "Mine": [],
+    "Mountain": [
+      "Wigglytuff",
+      "Haunter",
+      "Chansey",
+      "Flareon",
+      "Ampharos",
+      "Ursaring",
+      "Grumpig",
+      "Altaria",
+      "Drifblim",
+      "Honchkrow",
+      "Lucario",
+      "Gallade",
+      "Sawsbuck",
+      "Fraxure",
+      "Rufflet",
+      "Gogoat",
+      "Hawlucha",
+      "Lycanroc",
+      "Mudsdale",
+      "Indeedee",
+      "Lokix",
+      "Pawmo",
+      "Brambleghast",
+      "Scovillain",
+      "Espathra",
+      "Tinkatuff",
+      "Houndstone"
+    ],
+    "Ocean": [
+      "Cloyster",
+      "Gyarados",
+      "Floatzel",
+      "Alomomola",
+      "Skrelp",
+      "Clawitzer",
+      "Eiscur",
+      "Kilowattrel"
+    ],
+    "Olive": [],
+    "Prairie": [],
+    "Riverside": [
+      "Golduck",
+      "Vaporeon",
+      "Floatzel",
+      "Fraxure",
+      "Drakloak",
+      "Bellibolt"
+    ],
+    "Rocky": [
+      "Primeape",
+      "Grumpig",
+      "Honchkrow",
+      "Lucario",
+      "Gogoat",
+      "Hawlucha",
+      "Noibat",
+      "Copperajah",
+      "Lokix",
+      "Naclstack",
+      "Revavroom"
+    ],
+    "Ruins": [
+      "Haunter",
+      "Bronzong",
+      "Houndstone"
+    ],
+    "Snowfield": [
+      "Haunter",
+      "Glalie",
+      "Bronzong",
+      "Weavile",
+      "Glaceon",
+      "Froslass",
+      "Sawsbuck",
+      "Beartic",
+      "Frosmoth",
+      "Houndstone",
+      "Cetitan"
+    ],
+    "Swamp": [],
+    "Town": [],
+    "Underground": []
+  }
+}

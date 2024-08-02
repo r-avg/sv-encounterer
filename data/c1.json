@@ -1,0 +1,52 @@
+{
+  "habitats": {
+    "Bamboo Forest": [],
+    "Beach": [],
+    "Cave": [
+      "Dugtrio"     , "Umbreon"     , "Sneasel"     , "Sableye"     ,
+      "Gible"       , "Gabite"      , "Weavile"     , "Deino"       ,
+      "Zweilous"    , "Lycanroc"    , "Salandit"    , "Salazzle"    ,
+      "Glimmet"     , "Flutter Mane", "Iron Jugulis", "Roaring Moon",
+      "Iron Valiant"
+    ],
+    "Desert": [],
+    "Flower": [],
+    "Forest": [],
+    "Lake": [],
+    "Mine": [],
+    "Mountain": [],
+    "Ocean": [],
+    "Olive": [],
+    "Prairie": [
+      "Chansey"      , "Espeon"       , "Pawmo"        , "Pawmi"        ,
+      "Raichu"       , "Venomoth"     , "Girafarig"    , "Braviary"     ,
+      "Volcarona"    , "Floette"      , "Corviknight"  , "Farigiraf"    ,
+      "Scream Tail*" , "Brute Bonnet*", "Iron Bundle*" , "Iron Hands*"  ,
+      "Medicham"     , "Frosmoth"     , "Slither Wing*", "Iron Moth*"   ,
+      "Jumpluff"
+    ],
+    "Riverside": [
+      "Golduck"   , "Vaporeon"  , "Buizel"    , "Floatzel"  , "Dreepy"    ,
+      "Drakloak"  , "Masquerain", "Altaria"   , "Bisharp"   , "Bellibolt" ,
+      "Flamigo"
+    ],
+    "Rocky": [
+      "Donphan"      , "Camerupt"     , "Honchkrow"    , "Braviary"     ,
+      "Talonflame"   , "Gogoat"       , "Hawlucha"     , "Lycanroc"     ,
+      "Lokix"        , "Garganacl"    , "Sandy Shocks*", "Iron Thorns*" ,
+      "Copperajah"
+    ],
+    "Ruins": ["Houndstone"],
+    "Snowfield": [],
+    "Swamp": [],
+    "Town": [],
+    "Underground": [
+      "Dugtrio"      , "Dunsparce"    , "Gabite"       , "Zweilous"     ,
+      "Gible"        , "Drakloak"     , "Dreepy"       , "Garganacl"    ,
+      "Espathra"     , "Glimmet"      , "Glimmora"     , "Dudunsparce"  ,
+      "Great Tusk"   , "Scream Tail"  , "Brute Bonnet" , "Flutter Mane*",
+      "Iron Treads"  , "Iron Bundle"  , "Iron Hands"   , "Iron Jugulis" ,
+      "Roaring Moon" , "Iron Valiant"
+    ]
+  }
+}

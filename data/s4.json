@@ -1,0 +1,120 @@
+{
+  "habitats": {
+    "Bamboo Forest": [],
+    "Beach": [],
+    "Cave": [],
+    "Desert": [],
+    "Flower": [
+      "Combee",
+      "Petilil",
+      "Spewpa",
+      "Flabebe",
+      "Floette"
+    ],
+    "Forest": [
+      "Pikachu",
+      "Murkrow",
+      "Pineco",
+      "Dunsparce",
+      "Pachirisu",
+      "Komala",
+      "Applin",
+      "Lechonk",
+      "Tarountula",
+      "Charcadet",
+      "Shroodle",
+      "Toedscool"
+    ],
+    "Lake": [
+      "Psyduck",
+      "Scyther",
+      "Magikarp",
+      "Marill",
+      "Wooper",
+      "Misdreavus",
+      "Dunsparce",
+      "Phanpy",
+      "Barboach",
+      "Basculin",
+      "Goomy",
+      "Chewtle",
+      "Hatenna",
+      "Dreepy"
+    ],
+    "Mine": [],
+    "Mountain": [
+      "Gastly",
+      "Misdreavus",
+      "Phanpy",
+      "Meditite",
+      "Swablu",
+      "Drifloon",
+      "Riolu",
+      "Rufflet",
+      "Skiddo",
+      "Rockruff",
+      "Mudbray",
+      "Toxel",
+      "Pawmi",
+      "Charcadet",
+      "Flittle"
+    ],
+    "Ocean": [
+      "Shellder",
+      "Magikarp",
+      "Gyarados",
+      "Quilfish",
+      "Luvdisc",
+      "Buizel",
+      "Arrokuda",
+      "Wattrel",
+      "Finizen"
+    ],
+    "Olive": [],
+    "Prairie": [
+      "Murkrow",
+      "Dunsparce",
+      "Starly",
+      "Pachirisu",
+      "Riolu",
+      "Deerling",
+      "Fletchinder",
+      "Toxel",
+      "Lechonk",
+      "Tarountula",
+      "Pawmi",
+      "Maschiff",
+      "Toedscool"
+    ],
+    "Riverside": [
+      "Psyduck",
+      "Magikarp",
+      "Marill",
+      "Buizel",
+      "Basculin",
+      "Chewtle",
+      "Arrokuda",
+      "Dreepy",
+      "Tadbulb"
+    ],
+    "Rocky": [
+      "Houndour",
+      "Makuhita",
+      "Skiddo",
+      "Yungood",
+      "Gumshoos",
+      "Nacli",
+      "Charcadet"
+    ],
+    "Ruins": [
+      "Gastly",
+      "Bronzor",
+      "Maschiff",
+      "Tinkatink"
+    ],
+    "Snowfield": [],
+    "Swamp": [],
+    "Town": [],
+    "Underground": []
+  }
+}

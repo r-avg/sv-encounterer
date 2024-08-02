@@ -1,0 +1,83 @@
+{
+  "habitats": {
+    "Bamboo Forest": [
+      "Venomoth",
+      "Arcanine",
+      "Scyther",
+      "Heracross",
+      "Ursaring",
+      "Kricketune",
+      "Luxray",
+      "Foongus",
+      "Amoonguss",
+      "Bisharp",
+      "Oranguru",
+      "Passimian",
+      "Falinks",
+      "Spidops",
+      "Lokix"
+    ],
+    "Beach": [],
+    "Cave": [
+      "Dugtrio",
+      "Umbreon",
+      "Houndoom",
+      "Sableye",
+      "Gabite",
+      "Deino",
+      "Noibat",
+      "Salazzle",
+      "Glimmet"
+    ],
+    "Desert": [],
+    "Flower": [
+      "Chansey",
+      "Jumpluff",
+      "Vespiquen",
+      "Vivillon",
+      "Floette",
+      "Lurantis"
+    ],
+    "Forest": [],
+    "Lake": [
+      "Golduck",
+      "Scyther",
+      "Vaporeon",
+      "Dratini",
+      "Altaria",
+      "Mismagius",
+      "Drakloak"
+    ],
+    "Mine": [],
+    "Mountain": [],
+    "Ocean": [],
+    "Olive": [],
+    "Prairie": [],
+    "Riverside": [],
+    "Rocky": [
+      "Arcanine",
+      "Houndoom",
+      "Camerupt",
+      "Grumpig",
+      "Luxray",
+      "Honchkrow",
+      "Lucario",
+      "Bisharp",
+      "Gogoat",
+      "Hawlucha",
+      "Noibat",
+      "Copperajah",
+      "Lokix",
+      "Naclstack"
+    ],
+    "Ruins": [
+      "Bronzong",
+      "Falinks",
+      "Houndstone"
+    ],
+    "Snowfield": [],
+    "Swamp": [],
+    "Town": [],
+    "Underground": []
+  }
+}

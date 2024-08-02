@@ -1,0 +1,94 @@
+{
+  "habitats": {
+    "Bamboo Forest": [],
+    "Beach": [
+      "Wingull",
+      "Buizel",
+      "Crabrawler",
+      "Wiglett",
+      "Wattrel",
+      "Nacli"
+    ],
+    "Cave": [
+      "Diglett",
+      "Dunsparce",
+      "Larvitar",
+      "Makuhita",
+      "Sableye",
+      "Bagon",
+      "Gible",
+      "Yungoos",
+      "Salandit",
+      "Charcadet"
+    ],
+    "Desert": [],
+    "Flower": [
+      "Combee",
+      "Happiny",
+      "Petilil",
+      "Flabebe",
+      "Floette"
+    ],
+    "Forest": [],
+    "Lake": [],
+    "Mine": [],
+    "Mountain": [
+      "Mankey",
+      "Gastly",
+      "Misdreavus",
+      "Phanpy",
+      "Numel",
+      "Swablu",
+      "Drifloon",
+      "Skiddo",
+      "Rockruff",
+      "Mudbray",
+      "Nymble",
+      "Pawmo",
+      "Charcadet",
+      "Capsakid",
+      "Flittle",
+      "Bombirdier"
+    ],
+    "Ocean": [
+      "Shellder",
+      "Magikarp",
+      "Qwilfish",
+      "Wingull",
+      "Luvdisc",
+      "Buizel",
+      "Arrokuda",
+      "Wattrel",
+      "Bombirdier",
+      "Finizen"
+    ],
+    "Olive": [],
+    "Prairie": [],
+    "Riverside": [
+      "Psyduck",
+      "Magikarp",
+      "Buizel",
+      "Basculin",
+      "Chewtle",
+      "Arrokuda",
+      "Tadbulb"
+    ],
+    "Rocky": [
+      "Makuhita",
+      "Skiddo",
+      "Yungoos",
+      "Nacli",
+      "Charcadet"
+    ],
+    "Ruins": [
+      "Gastly",
+      "Bronzor",
+      "Falinks",
+      "Tinkatink"
+    ],
+    "Snowfield": [],
+    "Swamp": [],
+    "Town": [],
+    "Underground": []
+  }
+}

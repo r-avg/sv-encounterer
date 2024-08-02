@@ -1,0 +1,57 @@
+{
+  "habitats": {
+    "Bamboo Forest": [],
+    "Beach": [],
+    "Cave": [],
+    "Desert": [],
+    "Flower": [],
+    "Forest": [],
+    "Lake": [],
+    "Mine": [],
+    "Mountain": [],
+    "Ocean": [],
+    "Olive": [],
+    "Prairie": [
+      "Murkrow",
+      "Dunsparce",
+      "Gulpin",
+      "Happiny",
+      "Rookidee",
+      "Nymble",
+      "Pawmi"
+    ],
+    "Riverside": [],
+    "Rocky": [
+      "Growlithe",
+      "Makuhita",
+      "Spoink",
+      "Shinx",
+      "Skiddo",
+      "Yungoos",
+      "Rookidee",
+      "Pawmi",
+      "Nacli",
+      "Charcadet",
+      "Klawf"
+    ],
+    "Ruins": [
+      "Gastly",
+      "Drowzee",
+      "Bronzor",
+      "Tinkatink"
+    ],
+    "Snowfield": [],
+    "Swamp": [],
+    "Town": [
+      "Murkrow",
+      "Gulpin",
+      "Shuppet",
+      "Drifloon",
+      "Oricorio",
+      "Rookidee",
+      "Tandemaus",
+      "Sqawkabilly"
+    ],
+    "Underground": []
+  }
+}

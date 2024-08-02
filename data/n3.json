@@ -1,0 +1,89 @@
+{
+  "habitats": {
+    "Bamboo Forest": [],
+    "Beach": [
+      "Floatzel",
+      "Pincurchin",
+      "Eiscue",
+      "Wugtrio",
+      "Kilowattrel",
+      "Naclstack"
+    ],
+    "Cave": [
+      "Dugtrio",
+      "Umbreon",
+      "Hariyama",
+      "Sableye",
+      "Gabite",
+      "Deino",
+      "Salazzle",
+      "Glimmet"
+    ],
+    "Desert": [],
+    "Flower": [
+      "Chansey",
+      "Jumpluff",
+      "Sunflora",
+      "Vespiquen",
+      "Lilligant",
+      "Vivillon",
+      "Floette",
+      "Dedenne",
+      "Floette"
+    ],
+    "Forest": [],
+    "Lake": [],
+    "Mine": [],
+    "Mountain": [],
+    "Ocean": [
+      "Cloyster",
+      "Gyarados",
+      "Floatzel",
+      "Alomomola",
+      "Skrelp",
+      "Clawitzer",
+      "Barraskewda",
+      "Eiscue",
+      "KIlowattrel"
+    ],
+    "Olive": [],
+    "Prairie": [
+      "Chansey",
+      "Jumpluff",
+      "Espeon",
+      "Pawmo"
+    ],
+    "Riverside": [
+      "Golduck",
+      "Vaporeon",
+      "Floatzel",
+      "Barraskewda",
+      "Drakloak",
+      "Bellibolt",
+      "Flamigo"
+    ],
+    "Rocky": [
+      "Hariyama",
+      "Honchkrow",
+      "Gogoat",
+      "Hawlucha",
+      "Copperajah",
+      "Lokix",
+      "Naclstack"
+    ],
+    "Ruins": [],
+    "Snowfield": [
+      "Glalie",
+      "Bronzong",
+      "Glaceon",
+      "Froslass",
+      "Beartic",
+      "Frosmoth",
+      "Houndstone",
+      "Cetitan"
+    ],
+    "Swamp": [],
+    "Town": [],
+    "Underground": []
+  }
+}

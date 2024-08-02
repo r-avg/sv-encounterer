@@ -1,0 +1,35 @@
+{
+  "biomes": {
+    "Bamboo Forest": [],
+    "Beach": [],
+    "Cave": [],
+    "Desert": [],
+    "Flower": [],
+    "Forest": [],
+    "Lake": [],
+    "Mine": [],
+    "Mountain": [],
+    "Ocean": [
+      "Shellder",
+      "Magikarp",
+      "Gyarados",
+      "Qwilfish",
+      "Luvdisc",
+      "Buizel",
+      "Clauncher",
+      "Bruxish",
+      "Arrokuda",
+      "Wattrel",
+      "Finizen"
+    ],
+    "Olive": [],
+    "Prairie": [],
+    "Riverside": [],
+    "Rocky": [],
+    "Ruins": [],
+    "Snowfield": [],
+    "Swamp": [],
+    "Town": [],
+    "Underground": []
+  }
+}

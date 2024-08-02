@@ -1,0 +1,110 @@
+{
+  "habitats": {
+    "Bamboo Forest": [],
+    "Beach": [
+      "Slowpoke",
+      "Shellder",
+      "Marill",
+      "Buizel",
+      "Crabrawler",
+      "Mareanie",
+      "Sandygast",
+      "Pincurchin",
+      "Wiglett",
+      "Wattrel",
+      "Nacli"
+    ],
+    "Cave": [],
+    "Desert": [],
+    "Flower": [],
+    "Forest": [
+      "Venonat",
+      "Murkrow",
+      "Pineco",
+      "Dunsparce",
+      "Komala",
+      "Applin",
+      "Oinkologne",
+      "Spidops",
+      "Cyclizard",
+      "Shroodle",
+      "Charcadet",
+      "Toedscool"
+    ],
+    "Lake": [],
+    "Mine": [],
+    "Mountain": [],
+    "Ocean": [
+      "Shellder",
+      "Magikarp",
+      "Qwilfish",
+      "Luvdisc",
+      "Buizel",
+      "Clauncher",
+      "Mareanie",
+      "Arrokuda",
+      "Finizen",
+      "Wattrel"
+    ],
+    "Olive": [],
+    "Prairie": [
+      "Magnemite",
+      "Chansey",
+      "Tauros",
+      "Marill",
+      "Skiploom",
+      "Murkrow",
+      "Dunsparce",
+      "Deerling",
+      "Rookidee",
+      "Oinkologne",
+      "Cyclizar",
+      "Pawmo",
+      "Wattrel",
+      "Toedscool"
+    ],
+    "Riverside": [
+      "Psyduck",
+      "Slowpoke",
+      "Magikarp",
+      "Marill",
+      "Buizel",
+      "Basculin",
+      "Chewtle",
+      "Arrokuda",
+      "Dreepy",
+      "Tadbulb",
+      "Cyclizar"
+    ],
+    "Rocky": [
+      "Makuhita",
+      "Skiddo",
+      "Yungoos",
+      "Rookidee",
+      "Lokix",
+      "Nacli",
+      "Charcadet"
+    ],
+    "Ruins": [
+      "Gastly",
+      "Bronzor",
+      "Mimikyu",
+      "Tinkatink"
+    ],
+    "Snowfield": [],
+    "Swamp": [],
+    "Town": [
+      "Magnemite",
+      "Grimer",
+      "Murkrow",
+      "Kirlia",
+      "Shuppet",
+      "Drifloon",
+      "Rotom",
+      "Rookidee",
+      "Tandemaus",
+      "Squawkabilly"
+    ],
+    "Underground": []
+  }
+}

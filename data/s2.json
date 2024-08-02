@@ -1,0 +1,78 @@
+{
+  "habitats": {
+    "Bamboo Forest": [],
+    "Beach": [],
+    "Cave": [],
+    "Desert": [],
+    "Flower": [
+      "Sunkern",
+      "Combee",
+      "Happiny",
+      "Flabébé"
+    ],
+    "Forest": [
+      "Pikachu",
+      "Pichu",
+      "Bonsly",
+      "Bounsweet",
+      "Skwovet",
+      "Applin",
+      "Shroodle"
+    ],
+    "Lake": [],
+    "Mine": [],
+    "Mountain": [
+      "Gastly",
+      "Midreavus",
+      "Rockruff"
+    ],
+    "Ocean": [],
+    "Olive": [
+      "Diglett",
+      "Eevee",
+      "Mareep",
+      "Starly",
+      "Kricketot",
+      "Combee",
+      "Skwovet",
+      "Smoliv"
+    ],
+    "Prairie": [
+      "Mareep",
+      "Hoppip",
+      "Starly",
+      "Happiny",
+      "Fletchling",
+      "Maschiff"
+    ],
+    "Riverside": [
+      "Psyduck",
+      "Magikarp",
+      "Azurill",
+      "Buizel",
+      "Chewtle",
+      "Arrokuda",
+      "Tadbulb"
+    ],
+    "Rocky": [
+      "Makuhita",
+      "Yungoos",
+      "Nacli"
+    ],
+    "Ruins": [
+      "Gastly",
+      "Drowzee",
+      "Bronzor",
+      "Maschiff",
+      "Tinkatink"
+    ],
+    "Snowfield": [],
+    "Swamp": [],
+    "Town": [
+      "Jigglypuff",
+      "Igglybuff",
+      "Fidough"
+    ],
+    "Underground": []
+  }
+}
