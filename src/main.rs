@@ -155,7 +155,7 @@ fn select_area() -> String {
             } else if area.parse::<u8>().expect("Not a valid input") > areas_amount {
                 println!("Province has {areas_amount} areas; please input a number within");
                 is_input_correct = false;
-            } else if area.parse::<u8>().expect("Not a valid input") < areas_amount {
+            } else if area.parse::<u8>().expect("Not a valid input") <= areas_amount {
                 let area_u8: u8 = area.parse::<u8>().expect("Not a valid input");
 
                 match area.parse::<u8>().expect("Not a valid input") {
@@ -171,7 +171,7 @@ fn select_area() -> String {
                     _ => unreachable!(),
                 }
             } else {
-                println!("Unexpected item in bagging area!");  
+                println!("Unexpected item in bagging area! {}", area.parse::<u8>().expect("Not a valid input") );  
                 is_input_correct = false;
             }
         }
