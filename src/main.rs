@@ -11,6 +11,45 @@ use rand::Rng;
 use serde::{ Serialize, Deserialize };
 
 fn main() {
+    let mut region: String = "".to_string();
+    let mut region_ok: bool = true;
+
+    println!("Welcome to the Pokemon Scarlet and Violet encounter generator!");
+    println!("Please select which region you want to select your encounter for:");
+    print!("  1. Paldea\n  2. Kitakami\n  3. Blueberry Academy\n");
+
+    loop {
+        io::stdin()
+            .read_line(&mut region)
+            .expect("Failed to read line");
+        
+        region = region.trim().to_string();
+
+        match region.parse().expect("Not a valid input!") {
+            1 => paldea_encounter(),
+            2 => kitakami_encounter(),
+            3 => blueberry_encounter(),
+            _ => {
+                region_ok = false;
+                println!("Please input one of the given options!");
+            }
+        }
+
+        if region_ok{
+            break;
+        }
+    }
+}
+
+fn blueberry_encounter() {
+    todo!();
+}
+
+fn kitakami_encounter() {
+    todo!();
+}
+
+fn paldea_encounter() {
     // firstly: select the file
     let selected_area = select_area();
     // then read the selected file and select a biome from which to get the encounter
