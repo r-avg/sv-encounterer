@@ -1,5 +1,0 @@
-things to do on the project:
-
-add kitakami
-add blueberry
-have the program loop
